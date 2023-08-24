@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  color: #15163D;
+  line-height: 27.5px;
+  background-image: radial-gradient(circle at top left, #5974FF ,  white 20%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main, header, nav, footer {
+  width: 83.33%;
+  margin: auto;
+}
+
+header, section, nav, nav div, footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav{
+  font-weight: 18pt;
+  padding-top: 2.77%;
+}
+
+nav div{
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+section p, header p{
+  font-weight: 300;
+}
+
+p, ul{
+  font-size: 1rem;
+}
+
+section div, header div {
+  width: 50%;
+}
+
+.content{
+  width: 40%;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #15163D;
+}
+
+main img, header img{
+  width: 100%;
+}
+
+h1, h2{
+  font-size: 3.68rem;
+  line-height: 100%;
+}
+
+.logo{
+  width: 70px;
+}
+
+header a, section a{
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  width: 37.5%;
+  padding: 1rem;
+  line-height: 1rem;
+  background-color: #04146C;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.testimonials{
+  
+}
+
+.testimony-box{
+  width: 22.1875rem;
+  height: 20.875rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #EFF2FF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.testimony-box img{
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 6.25rem;;
+}
+
+footer{
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+/*   width: 1440px;
+  height: 443px;
+  left: -31px;
+  top: 2764px; */
+  background-color: #15163D;
+}
+
+footer ul{
+  width: 16.66%;
+}
+
+footer p{
+  width: 100%;
+}
+
+@media screen (max-width: 768px){
+  body{
+    font-size: 68.9%;
+  }
+}
